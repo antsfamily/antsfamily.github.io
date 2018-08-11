@@ -1,0 +1,69 @@
+# Basic
+title: lian
+subtitle: iridescent's personal website
+welcome_message: <a href="https://github.com/antsfamily" target="_blank">Welcome to iridescent's website！</a>
+description: lian is iridescent's personal website.
+creator: <a href="http://iridescent.ink/">@iridescent</a>
+
+url: "http://iridescent.ink/"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+# cover_color: blue
+cover_color:
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Books, description: My Books, url: 'http://iridescent.ink/books/'}
+    - {title: Projects, description: My Projects, url: 'http://iridescent.ink/projects/'}
+    - {title: Research, description: My Research, url: 'http://iridescent.ink/'}
+    - {title: Tutorials, description: My Tutorials, url: 'http://iridescent.ink/tutorials/'}
+    - {title: Resources, description: My Collection Resources, url: 'http://iridescent.ink/resources/'}
+    - {title: Notes, description: My Study Notes, url: 'http://iridescent.ink/studynotes/'}
+    - {title: CSDN, description: My CSDN blogs, url: 'http://blog.csdn.net/enjoyyl'}
+
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo:
+
+# Social
+social:
+    # weibo: onevcat
+    github: antsfamily
+    csdn: http://blog.csdn.net/enjoyyl
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: zhiliu.mind@gmail.com
+
+# Google Analytics
+ga:
+    id: UA-72449510-4
+    # host: your_host
+
+# Baidu Analytics
+bda:
+    id: 2f08c2af6d0a71f1344d2ee434fe963d
+
+
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+

@@ -1,2 +1,3 @@
-# antsfamily.github.io
-zhi‘s homepage on GitHub
+# Hello
+
+Homepage of Zhi using Jekyll theme.
