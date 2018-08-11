@@ -30,6 +30,7 @@ nav:
     - {title: Resources, description: My Collection Resources, url: 'http://iridescent.ink/resources/'}
     - {title: Notes, description: My Study Notes, url: 'http://iridescent.ink/studynotes/'}
     - {title: CSDN, description: My CSDN blogs, url: 'http://blog.csdn.net/enjoyyl'}
+    - {title: About, description: About me, url: 'http://iridescent.ink/about/'}
 
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
