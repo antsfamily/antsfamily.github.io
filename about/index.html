@@ -5,24 +5,29 @@ active: about
 header-img: "assets/images/about-bg.jpg"
 ---
 
+
+<div style="color:#00FFFF">
+    1. discipline： to be a person with Integrity, innovation, iridescent;
+
+    2. hobby： Invention, creation, playing badminton, photography, music;
+
+    3. dream: make the real Intelligent agent;
+
+    4. motto： I‘m not smarter than others, but not stupid! Have a breakthrough in the cause of my love!
+
+<!-- <hr class="big"> -->
+    <!-- {{ page.description }} -->
+</div>
+
+
+
 <header class="panel-cover" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <div style="color:#00FFFF">
-                        1. discipline： to be a person with Integrity, innovation, iridescent;
 
-                        2. hobby： Invention, creation, playing badminton, photography, music;
-
-                        3. dream: make the real Intelligent agent;
-
-                        4. motto： I‘m not smarter than others, but not stupid! Have a breakthrough in the cause of my love!
-
-                    <!-- <hr class="big"> -->
-                        <!-- {{ page.description }} -->
-                    </div>
                 </div>
             </div>
         </div>
