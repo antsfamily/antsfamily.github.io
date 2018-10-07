@@ -1,3 +1,3 @@
 - [本科学历表](./liuyan_benke.pdf)
 - [专科学历表](./liuyan_zhuanke.pdf)
-- [2018年沛县博物馆公开招聘合同制讲解员报名登记表](./dengjibiao.pdf)
+- [2018年沛县博物馆公开招聘合同制讲解员报名登记表](./dengjibiao.doc)
