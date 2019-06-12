@@ -25,7 +25,7 @@ blog_button:
 nav:
     - {title: Books, description: My Books, url: 'http://iridescent.ink/books/'}
     - {title: Projects, description: My Projects, url: 'http://iridescent.ink/projects/'}
-    - {title: Research, description: My Research, url: 'http://iridescent.ink/'}
+    - {title: Research, description: My Research, url: 'http://iridescent.ink/research/'}
     - {title: Tutorials, description: My Tutorials, url: 'http://iridescent.ink/tutorials/'}
     - {title: Resources, description: My Collection Resources, url: 'http://iridescent.ink/resources/'}
     - {title: Notes, description: My Study Notes, url: 'http://iridescent.ink/studynotes/'}
