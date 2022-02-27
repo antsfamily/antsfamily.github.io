@@ -23,13 +23,13 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Iridescent, description: My homepage, url: 'http://iridescent.ink/iridescent/'}
-    - {title: Books, description: My books, url: 'http://iridescent.ink/books/'}
+    - {title: Iridescent, description: My homepage, url: 'https://iridescent.ink/iridescent/'}
     - {title: Projects, description: My projects, url: 'http://iridescent.ink/projects/'}
     - {title: Research, description: My research, url: 'http://iridescent.ink/research/'}
     - {title: Tutorials, description: My tutorials, url: 'http://iridescent.ink/tutorials/'}
-    - {title: Notes, description: My study notes, url: 'http://iridescent.ink/studynotes/'}
-    - {title: CSDN, description: My CSDN blogs, url: 'http://blog.csdn.net/enjoyyl'}
+    - {title: Notes, description: My study notes, url: 'https://ai.iridescent.ink/aitrace/'}
+    - {title: Writing, description: My writing, url: 'https://iridescent.ink/writings/'}
+    - {title: CSDN, description: My CSDN blogs, url: 'https://iridescent.blog.csdn.net/'}
     - {title: About, description: About me, url: 'http://iridescent.ink/about/'}
 
     # - {title: Another Button, description: A button, url: 'http://example.com'}
