@@ -1,0 +1,70 @@
+# Basic
+title: lian
+subtitle: iridescent's personal website
+welcome_message: <a href="http://iridescent.ink/" target="_blank">Welcome to iridescent's website！</a>
+description: Some of us get dipped in flat, some in satin, some in gloss, but every once in a while, you find someone who's iridescent. And when you do, nothing will ever compare.
+creator: <a href="http://iridescent.ink/">@iridescent</a>
+
+url: "http://iridescent.ink/"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+# cover_color: blue
+cover_color:
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Iridescent, description: My homepage, url: 'https://iridescent.ink/iridescent/'}
+    - {title: Projects, description: My projects, url: 'http://iridescent.ink/projects/'}
+    - {title: Research, description: My research, url: 'http://iridescent.ink/research/'}
+    - {title: Tutorials, description: My tutorials, url: 'http://iridescent.ink/tutorials/'}
+    - {title: Notes, description: My study notes, url: 'https://ai.iridescent.ink/aitrace/'}
+    - {title: Writing, description: My writing, url: 'https://iridescent.ink/writings/'}
+    - {title: CSDN, description: My CSDN blogs, url: 'https://iridescent.blog.csdn.net/'}
+    - {title: About, description: About me, url: 'http://iridescent.ink/about/'}
+
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo:
+
+# Social
+social:
+    # weibo: onevcat
+    github: antsfamily
+    csdn: http://blog.csdn.net/enjoyyl
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: zhiliu.mind@gmail.com
+
+# Google Analytics
+ga:
+    id: UA-72449510-4
+    # host: your_host
+
+# Baidu Analytics
+bda:
+    id: 2f08c2af6d0a71f1344d2ee434fe963d
+
+
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+

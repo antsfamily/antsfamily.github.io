@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <!-- mathjax config similar to math.stackexchange -->
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          }
+        });
+    </script>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Queue(function() {
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i=0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+    <script type="text/javascript"
+       src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+ <!--    <SCRIPT language="JavaScript">
+        function getCookieVal(offset)
+
+        {var endstr=document.cookie.indexOf(";",offset);if(endstr==-1)
+
+        endstr=document.cookie.length;return unescape(document.cookie.substring(offset,endstr));}function GetCookie(name)
+
+        {var arg=name+"=";var alen=arg.length;var clen=document.cookie.length;var i=0;while(i<clen)
+
+        {var j=i+alen;if(document.cookie.substring(i,j)==arg)
+
+        return getCookieVal(j);i=document.cookie.indexOf(" ",i)+1;if(i==0)
+
+        break;
+
+        }return null;}function SetCookie(name,value)
+
+        {var argv=SetCookie.arguments;var argc=SetCookie.arguments.length;var expires=(2<argc)?argv[2]:null;var path=(3<argc)?argv[3]:null;var domain=(4<argc)?argv[4]:null;var secure=(5<argc)?argv[5]:false;document.cookie=name+"="+escape(value)+((expires==null)?"":("; expires="+expires.toGMTString()))+((path==null)?"":("; path="+path))+((domain==null)?"":("; domain="+domain))+((secure==true)?"; secure":"");}function ResetCounts(name)
+
+        {visits=0;SetCookie("visits",visits,expdate,"/",null,false);location.reload();}
+    </SCRIPT>
+
+    <SCRIPT language="JavaScript">
+        var expdate=new Date();
+        var visits;//以下设置COOKIES时间为1年,自己随便设置该时间.
+
+        expdate.setTime(expdate.getTime()+(24*60*60*1000*365));
+
+        if(!(visits=GetCookie("visits")))
+
+        visits=0;visits++;SetCookie("visits",visits,expdate,"/",null,false);//以下信息显示可以使用标准的HTML语法,自己随便设置。
+
+        document.write("Welcome to iridescent's world!" + "<FONT COLOR=red>"+visits+"</FONT>"+" hits！");
+        if(visits==1)//来访1次的信息显示
+        document.write("<br>"+"Welcome to iridescent's world!");
+    </SCRIPT> -->
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    {% include side-panel.html %}
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </div>
+
+    {% include external.html %}
+
+  </body>
+
+</html>
