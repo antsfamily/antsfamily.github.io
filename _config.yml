@@ -1,7 +1,7 @@
 # Basic
-title: lian
-subtitle: iridescent's personal website
-welcome_message: <a href="http://iridescent.ink/" target="_blank">Welcome to iridescent's website！</a>
+title: iridescent
+subtitle: zhi's personal website
+welcome_message: <a href="http://iridescent.ink/" target="_blank">Welcome to zhi's website！</a>
 description: Some of us get dipped in flat, some in satin, some in gloss, but every once in a while, you find someone who's iridescent. And when you do, nothing will ever compare.
 creator: <a href="http://iridescent.ink/">@iridescent</a>
 
@@ -23,7 +23,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Iridescent, description: My homepage, url: 'https://iridescent.ink/iridescent/'}
+    - {title: Navigation, description: My homepage, url: 'https://iridescent.ink/navigation/'}
     - {title: Projects, description: My projects, url: 'http://iridescent.ink/projects/'}
     - {title: Research, description: My research, url: 'http://iridescent.ink/research/'}
     - {title: Tutorials, description: My tutorials, url: 'http://iridescent.ink/tutorials/'}
@@ -64,7 +64,7 @@ bda:
     id: 2f08c2af6d0a71f1344d2ee434fe963d
 
 
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 markdown: kramdown
 
 
